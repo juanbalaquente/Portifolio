@@ -66,6 +66,91 @@ section#hero{
     text-align: center;
     color: #fff;
 }
+
+
+
+
+.redes_sociais{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16rem;
+  }
+  .redes_sociais{
+    display: flex;
+    gap: 10px;
+  }
+  .redes_sociais div{
+    min-height: 600px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .instagram{
+    background-color:#fcdebe9d;
+  }
+  .redes_sociais h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom:55px;
+    margin-top: 25px;
+  }
+  .redes_sociais p{
+    margin: 10px;
+    text-align: center;
+  }
+  .redes_sociais img{
+    width: 125px;
+  }
+  .redes_sociais img:hover{
+    width: 130px;
+    transition: .4s all ease-in-out;
+  }
+  .github{
+    background-color: #d4d2a5a9 ;
+  }
+  .linkedin{
+    background-color: #928779a4 ;
+  }
+  [data-anime] {
+    opacity: 0;
+    transition: 1s;
+  } 
+  [data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+  }
+  [data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+  }
+  [data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+  }
+  [data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .action_btn{
     background-color: orange;
     color: #fff;
@@ -125,4 +210,4 @@ section#hero{
     .dropdown_menu{
         display: block;
     }
-} */
+} *
